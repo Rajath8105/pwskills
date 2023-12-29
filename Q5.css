@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+.container{
+    display: flex;
+    max-width: 100%;
+}
+
+.left-container{
+    flex-grow: 2;
+}
+nav{
+    padding: 30px;
+    display: flex;
+    
+    align-items: flex-end;
+}
+
+.left-nav{
+    display: flex;
+}
+.right-nav{
+    margin-left: 100px;
+}
+.right-nav-top p {
+    margin-right: 10px;
+    width: 100px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.right-nav-bottom button{
+  cursor: pointer;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.login{
+    background-color: orange;
+    color: white;
+    margin-right: 45px;
+    border: none;
+}
+.register,.agent{
+    background-color: #fff;
+    border: 1px solid rgb(133, 124, 124);
+}
+.agent{
+    margin-left: 30px;
+}
+.nav-img1{
+    margin-right:50px;
+    margin-left: 50px;
+}
+
+.right-nav-top{
+    display: flex;
+}
+
+.right-container{
+    flex-grow: 1;
+}
+.heroImage{
+    height: 100%;
+    width: 100%;
+}
+
+.ind-railways{
+    margin-left: 80px;
+    margin-top: 40px;
+    font-size: 50px;
+    color: #333333;
+}
+span{
+    line-height: 80px;
+    margin-left: 80px;
+    font-size: 30px;
+}
+.s1{
+    color: #21c328;
+}
+.s2{
+    color: #Fc9b60;
+    margin-left: 20px;
+}
+.s3{
+    color: rgb(33,61,119);
+    margin-left: 20px;
+    
+}
+
+.status{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 80px;
+    gap: 50px;
+    
+}
+.book-ticket,.charts,.pnr{
+    display: flex;
+    padding: 0px 20px;
+    align-items: center;
+    border: 1px solid rgb(133, 124, 124);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.book-ticket{
+    background-color: rgb(33,61,119);
+    color: white;
+}
+.simg1{
+    margin-right: 10px;
+    margin-left: -10px;
+}
+.destination{
+    margin-top: 80px;
+}
+.top-dest{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 60px;
+    border: 1px solid rgb(233, 227, 227);
+    border-radius: 10px;
+   padding: 15px;
+   margin: 0px 10%;
+
+}
+.bottom-dest{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 60px;
+    border: 1px solid rgb(233, 227, 227);
+    border-radius: 10px;
+    padding: 15px;
+   margin: 0px 10%;
+   margin-top: 20px;
+
+}
+.from1{
+    display: flex;
+}
+.banglore{
+
+    line-height: 35px;
+    font-size: 25px;
+    font-weight: 900;
+}
+.kasargod{
+
+    line-height: 35px;
+    font-size: 25px;
+    font-weight: 900;
+}
+.calender,.berth,.tatkal{
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 35px;
+}
+.to-from{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.to1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.to{
+    display: flex;
+    align-items: center;
+}
+.from-cont,.to-cont{
+    line-height: 20px;
+}
+.ksr-b{
+    line-height: 25px;
+}
+
+/* .arrow{
+    width: 100%;
+    height: 100%;
+} */
+.class-info,.date,.seat-info{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.date-expand,.seat-expand,.class-expand{
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    margin: 0 10%;
+    margin-top: 50px;
+    width: 80%;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    background-color: #21c328;
+
+}
